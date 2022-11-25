@@ -1,6 +1,6 @@
-import link from "next/link"
+import Link from "next/link";
 
-export default function nav (){
+export default function Nav (){
     return(
         <nav>
             <ul>
