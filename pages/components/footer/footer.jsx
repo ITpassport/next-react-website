@@ -2,7 +2,8 @@ import Logo from "../logo"
 
 export default function Footer (){
     return(
-        <footer>
+        <footer className={styles.wrapper}>
+            <div className={style.flexContainer}></div>
             <Logo />
         </footer>
     )
