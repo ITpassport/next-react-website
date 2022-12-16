@@ -2,6 +2,6 @@
     padding: var(--space-xl)0;
 }
 .flexContainer {
-    composes:sideBySideCenter from"styles/utils.module.css";
+    composes: sideBySideCenter from "/styles/utils.module.css";
     gap :2em;
 }
