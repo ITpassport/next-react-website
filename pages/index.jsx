@@ -1,21 +1,10 @@
+import Hero from './components/hero'
+import Layout from './components/layout'
 
-
-import Footer from '../components/footer/footer'
-import Header from '../components/header/header'
-import Hero from '../components/hero/hero'
-
-export default function Blog() {
-
+export default function Home () {
   return (
-    <>
-    <Header />
-  <Hero
-  title="CUBE"
-  subtitle="アウトプットしていくサイト"
-  imageOn
-  />
-
-    <Footer />
-    </>
-  )
+  <Layout>
+    <Hero />
+  </Layout>
+  ) 
 }
