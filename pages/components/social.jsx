@@ -3,7 +3,7 @@ import styles from 'styles/social.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
     faTwitter,
-    faFacebookF,
+    faFacebook,
     faGithub,
  } from '@fortawesome/free-brands-svg-icons'
 import Link from 'next/link'
@@ -12,22 +12,22 @@ import Link from 'next/link'
     return (
         <ul class={styles.list}>
             <li>
-                <Link href='https://twitter.com'>
+                <a href='https://twitter.com'>
                 <FontAwesomeIcon icon={faTwitter} />
                 <span className='sr-only'>Twitter</span>
-                </Link>
+                </a>
             </li>
             <li>
-                <Link href="https://www.facebook.com">
+                <a href="https://www.facebook.com">
                 <FontAwesomeIcon icon={faFacebook}/>
                 <span className='sr-only'>Facebook</span>
-                </Link>
+                </a>
             </li>
             <li>
-                <Link href="https://github.com">
+                <a href="https://github.com">
                 <FontAwesomeIcon icon={faGithub}/>
                 <span className='sr-only'>Github</span>
-                </Link>
+                </a>
             </li>
         </ul>
     )
